@@ -2,7 +2,7 @@
   "name": "react-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://react-demo.dnx.host",
+  "homepage": "http://react-demo.dnx.host",
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",

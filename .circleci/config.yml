@@ -19,8 +19,8 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       - run:
-          name: npm run buld
-          command: npm run buld
+          name: npm run build
+          command: npm run build
       - persist_to_workspace:
           root: .
           paths:

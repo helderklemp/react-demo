@@ -48,6 +48,7 @@ jobs:
       - run:
           name: Deploy
           command: |
+            . venv/bin/activate
             aws s3 sync build/ s3://react-demo.dnx.host --delete
 
 workflows:

@@ -48,7 +48,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            npm run deploy
+            aws s3 sync build/ s3://react-demo.dnx.host --delete
 
 workflows:
   version: 2
